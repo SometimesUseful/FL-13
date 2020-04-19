@@ -1,0 +1,206 @@
+body {
+font-family : 'Merriweather', serif;
+min-width : 900px;
+color : #777;
+}
+header {
+height : 35px;
+padding : 15px;
+color : #777;
+font-family : Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+}
+section {
+line-height : 20px;
+display : flex;
+flex-direction : column;
+justify-content : center;
+align-items : center;
+}
+a {
+text-decoration : none;
+color : #777;
+}
+hr {
+width : 800px;
+color : #777;
+}
+
+.header-name {
+margin-left : 100px;
+letter-spacing : 3px;
+}
+.header-nav {
+text-align : right;
+display : inline-block;
+float : right;
+word-spacing : 25px;
+margin-right : 150px;
+}
+.navig:hover {
+color : #bfba55;
+}
+.hero {
+width : 100vw;
+height : 100vh;
+display : flex;
+justify-content : center;
+align-items : center;
+text-align : center;
+background-image : linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("../img/home-bg.jpg");
+background-size : cover;
+background-position : top;
+background-repeat : no-repeat;
+background-attachment : fixed;
+}
+.hero h1 {
+font-size : 4em;
+color : #FFFFFF;
+margin-top : 0;
+margin-bottom : 0.5em;
+}
+.hero p {
+color : #bfba55;
+font-size : 12px;
+letter-spacing : 1px;
+font-weight : 500;
+}
+.discover-btn {
+border-radius : 30px;
+color : #777;
+width : 150px;
+height : 40px;
+font-weight : bold;
+border : none;
+}
+.discover-btn:active {
+background-color : lightgray;
+box-shadow : 1px 1px 10px -1px inset;
+}
+.discover-btn:focus {
+outline : none;
+}
+.blog-img1 {
+margin-top : 50px;
+display : flex;
+justify-content : center;
+background-image : url("../img/blog-image1.jpg");
+width : 800px;
+height : 500px;
+background-size : 100% auto;
+background-repeat : no-repeat;
+}
+.section-header {
+color : #000;
+margin-top : 40px;
+}
+.user-name {
+display : flex;
+align-items : flex-start;
+align-self : flex-start;
+}
+.user-image {
+border-radius : 100px;
+width : 50px;
+height : 50px;
+}
+p {
+margin-right : 20px;
+}
+.comments-fix {
+margin-right : 5px;
+}
+.lorem {
+line-height : 25px;
+}
+.user-btn {
+height : 45px;
+border-radius : 50px;
+width : 200px;
+border : gray solid 1px;
+background-color : #FFFFFF;
+color : gray;
+font-weight : bold;
+}
+.user-btn:hover {
+background-color : lightgray;
+}
+.user-btn:active {
+box-shadow : 1px 1px 10px -1px inset;
+}
+.user-btn {
+outline : none;
+}
+.art {
+margin-left : 245px;
+margin-right : 220px;
+}
+.blog-img2 {
+margin-top : 50px;
+display : flex;
+justify-content : center;
+background-image : url("../img/blog-image2.jpg");
+width : 800px;
+height : 500px;
+background-size : 100% auto;
+background-repeat : no-repeat;
+}
+.blog-img3 {
+margin-top : 50px;
+display : flex;
+justify-content : center;
+background-image : url("../img/blog-image3.jpg");
+width : 800px;
+height : 500px;
+background-size : 100% auto;
+background-repeat : no-repeat;
+}
+.blog-img4 {
+margin-top : 50px;
+display : flex;
+justify-content : center;
+background-image : url("../img/blog-image4.jpg");
+width : 800px;
+height : 500px;
+background-size : 100% auto;
+background-repeat : no-repeat;
+}
+.blog-img5 {
+margin-top : 50px;
+display : flex;
+justify-content : center;
+background-image : url("../img/blog-image5.jpg");
+width : 800px;
+height : 500px;
+background-size : 100% auto;
+background-repeat : no-repeat;
+}
+.foot {
+background-color : #000;
+display : flex;
+flex-direction : row;
+justify-content : space-around;
+align-items : flex-start;
+height : 225px;
+padding-top : 75px;
+font-family : Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+margin-top : 100px;
+}
+.epam-footer {
+width : 50%;
+margin-left : 220px;
+}
+.epam-contacts {
+width : 50%;
+margin-right : 180px;
+margin-left : 60px;
+}
+.foot h2 {
+color : #FFFFFF;
+display : flex;
+align-self : flex-start;
+}
+.foot p {
+display : flex;
+align-self : flex-start;
+margin-top : 3px;
+}
